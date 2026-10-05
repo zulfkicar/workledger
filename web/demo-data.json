@@ -1,0 +1,785 @@
+{
+  "generated_at": "2026-10-05T14:25:18.451Z",
+  "users": [
+    {
+      "id": "u-ava",
+      "name": "Ava Morgan",
+      "role": "manager"
+    },
+    {
+      "id": "u-noah",
+      "name": "Noah Park",
+      "role": "member"
+    },
+    {
+      "id": "u-mia",
+      "name": "Mia Chen",
+      "role": "member"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p-studio",
+      "name": "Studio operations",
+      "color": "#4263eb",
+      "budget_minutes": 2400
+    },
+    {
+      "id": "p-atlas",
+      "name": "Atlas website",
+      "color": "#b06b3d",
+      "budget_minutes": 3600
+    },
+    {
+      "id": "p-customer",
+      "name": "Customer experience",
+      "color": "#4d8a70",
+      "budget_minutes": 1800
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t-report",
+      "project_id": "p-studio",
+      "title": "Prepare the weekly client report",
+      "category": "Reporting",
+      "assignee_id": "u-ava",
+      "status": "in_progress",
+      "estimate_minutes": 900,
+      "due_date": "2026-10-05",
+      "note": "",
+      "status_changed_at": "2026-10-04T14:25:18.431Z",
+      "created_at": "2026-10-04T14:25:18.431Z"
+    },
+    {
+      "id": "t-content",
+      "project_id": "p-atlas",
+      "title": "Review landing page content",
+      "category": "Content review",
+      "assignee_id": "u-noah",
+      "status": "todo",
+      "estimate_minutes": 120,
+      "due_date": "2026-10-05",
+      "note": "",
+      "status_changed_at": "2026-10-04T14:25:18.431Z",
+      "created_at": "2026-10-04T14:25:18.431Z"
+    },
+    {
+      "id": "t-invoices",
+      "project_id": "p-studio",
+      "title": "Match supplier invoices",
+      "category": "Invoice review",
+      "assignee_id": "u-mia",
+      "status": "in_progress",
+      "estimate_minutes": 900,
+      "due_date": "2026-10-05",
+      "note": "",
+      "status_changed_at": "2026-10-04T14:25:18.431Z",
+      "created_at": "2026-10-04T14:25:18.431Z"
+    },
+    {
+      "id": "t-access",
+      "project_id": "p-atlas",
+      "title": "Confirm access to the staging site",
+      "category": "Access setup",
+      "assignee_id": "u-ava",
+      "status": "blocked",
+      "estimate_minutes": 30,
+      "due_date": "2026-10-05",
+      "note": "Waiting for the client to send a staging invitation.",
+      "status_changed_at": "2026-10-01T14:25:18.431Z",
+      "created_at": "2026-10-01T14:25:18.431Z"
+    },
+    {
+      "id": "t-triage",
+      "project_id": "p-customer",
+      "title": "Categorise incoming support requests",
+      "category": "Request triage",
+      "assignee_id": "u-noah",
+      "status": "in_progress",
+      "estimate_minutes": 600,
+      "due_date": "2026-10-05",
+      "note": "",
+      "status_changed_at": "2026-10-04T14:25:18.431Z",
+      "created_at": "2026-10-04T14:25:18.431Z"
+    },
+    {
+      "id": "t-design",
+      "project_id": "p-atlas",
+      "title": "Finish the navigation prototype",
+      "category": "Design",
+      "assignee_id": "u-mia",
+      "status": "done",
+      "estimate_minutes": 1200,
+      "due_date": "2026-10-05",
+      "note": "",
+      "status_changed_at": "2026-10-04T14:25:18.431Z",
+      "created_at": "2026-10-04T14:25:18.431Z"
+    },
+    {
+      "id": "t-release",
+      "project_id": "p-atlas",
+      "title": "Prepare the client release notes",
+      "category": "Reporting",
+      "assignee_id": "u-ava",
+      "status": "todo",
+      "estimate_minutes": 75,
+      "due_date": "2026-10-05",
+      "note": "",
+      "status_changed_at": "2026-10-04T14:25:18.431Z",
+      "created_at": "2026-10-04T14:25:18.431Z"
+    }
+  ],
+  "entries": [
+    {
+      "id": "b80fb185-5063-40d5-b734-8ee682cc8d93",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-10-05T10:00:00.000Z",
+      "minutes": 70,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "4adc9319-b88c-4b19-90d4-e02aa0fd54ed",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-10-05T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "01bfeafa-32b3-44ed-a64f-d260be04921b",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-10-05T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "0a41ae0f-1668-4fcf-9527-de1e79ac3fab",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-10-05T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "dc71af49-2f41-43ba-8e9d-11ee724193df",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-10-02T10:00:00.000Z",
+      "minutes": 70,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "8d1d4288-2999-4792-bc8b-d6db11e7f7c1",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-10-02T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "eee75673-a8ac-4a50-b918-73c8e5470772",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-10-02T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "b8494d56-f8d8-4f3c-a13e-da7371655853",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-10-02T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "a0a3f485-ac17-4768-a93a-7bb5b495677b",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-10-01T10:00:00.000Z",
+      "minutes": 70,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "7748451d-2226-46ab-a7bf-503d13b276bb",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-10-01T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "b364d4da-a598-4a61-9218-8264be346ea8",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-10-01T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "d112ff83-90a7-41b9-b630-854fc720edcf",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-10-01T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "5c605660-1ba0-4373-81b9-f044cedb85ea",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-30T10:00:00.000Z",
+      "minutes": 70,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "1f826575-bc50-4dc0-a56b-b5766b2bf4d5",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-30T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "1923563e-2cb3-4411-8f07-a2a535c70dc3",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-30T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "044ccaac-6232-442e-ac47-4ec90c058d84",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-30T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "d147f0c8-6c5d-4f96-ab22-55bea605b33d",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-29T10:00:00.000Z",
+      "minutes": 70,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "02ed532d-f03e-432c-a1da-40b09254b8f7",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-29T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "92bacc42-cdb8-4629-8364-e6353353787d",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-29T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "043f2cf7-bc85-4934-a8b9-6e7db2a868b1",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-29T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "75a4eec5-9a42-4349-a769-4c9e6acde633",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-28T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "1f13a985-f35f-4278-991e-2c386a348766",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-28T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "29473e22-a9fc-4946-bec7-86b0fba21663",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-28T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "2fa56242-d6df-4ba1-9cff-94fbfbc3224c",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-28T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "db6465f4-4c74-48d5-b465-dd139335e79a",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-25T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "05bfd5a9-62b5-4dc9-90ec-e8d7bcef0419",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-25T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "ed0ad8ec-15b2-48c5-a151-2de617dbd042",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-25T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "c9948a4d-872c-4972-ac31-c6052b2f394f",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-25T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "aa4f8544-ea65-4c31-91ca-82ab38190961",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-24T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "28ef1b25-f579-481b-974e-87675149d12f",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-24T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "bd231465-3b29-4a9f-a5cc-454f9d585fb1",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-24T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "23137560-3e8e-422e-a5b2-73555f49a0e8",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-24T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "24dfd094-74df-4c2f-8f22-956bad1fdf61",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-23T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "7a8c9132-91d6-47c1-9d9d-c0a865aafae3",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-23T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "616f9221-807e-4f94-8654-db10adb3fb30",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-23T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "37786c82-5697-49ee-bcd0-3b66a80e526e",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-23T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "94c99737-ec4d-4c84-8f14-2c00d63968ef",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-22T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "3b3afdfb-efe3-4526-928a-ab009e55ef64",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-22T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "58dab413-ac76-4308-a3f1-0f82cfae6e36",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-22T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "4594be22-abcf-43e4-b931-2cd48d0ffa57",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-22T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "09f8f529-9599-42d3-8133-c1236741c8a7",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-21T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "29f2a8cd-8b3f-4725-825d-79ccfcddbf02",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-21T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "1af6020c-1388-4900-850a-67f8cc222c47",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-21T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "69f411e9-671b-4873-833c-e98b7aecfcb6",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-21T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "ca247a39-8809-446a-bc0d-da81078c8d5b",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-18T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "bcb80823-2c58-4892-82ca-81db6adc9648",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-18T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "d47accd5-da2e-48fc-85e7-58ff643b3678",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-18T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "3a9b4c3e-11f8-487e-b356-b996440bbd7a",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-18T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "9afe1cf3-70e9-4e90-bc71-33f15e4679e9",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-17T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "a48e3428-0092-42df-ab41-aa252ebc86be",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-17T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "9e96da4d-b040-41f3-8c07-454327079b60",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-17T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "fd4d4824-37e1-49a5-8fa9-295efa38616e",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-17T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "00ddb489-bb1c-45c2-9228-daf3b0fd50b4",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-16T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "b5ef8142-ed92-45ed-b728-db3cb07894e4",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-16T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "28db0ff8-3110-479b-8a06-0c768f77d101",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-16T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "cbfcb145-4b27-4e7d-b7e7-287d89759519",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-16T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "8dca28c2-b034-4c1a-81ad-cb4682e4ff2d",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-15T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "1db5bfaf-24fe-4b36-bfb2-3b0320429428",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-15T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "27916291-d996-498b-a3f7-aa262b3d5564",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-15T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "754f2fed-421d-453a-956f-bca2aae0c64f",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-15T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "5f0de152-6ebd-48a8-9887-f5605d7b1ce2",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-14T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "df6afaac-32b3-482d-b98a-c8c81a5e9a9b",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-14T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "72305827-ca63-45fe-b551-8e0c9787cd7c",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-14T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "d947603e-431b-410a-8e63-f290f4768647",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-14T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "fa63de01-b17d-45dc-b1ac-ad21bd22e1ed",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-11T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "394fc617-5761-40b1-b2f0-9c1db3f4c0b3",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-11T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "620ffc0e-061c-41ed-b994-f65bb7bb5907",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-11T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "41f15d44-23cd-4b4a-b9a6-e65adf6591e6",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-11T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "520c0dd2-5f39-47b9-b687-77c5c35e0465",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-10T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "a434da9b-38b1-44d4-9015-c338f00b4191",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-10T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "40187e27-ff68-4de6-97b9-7d309b1c2a40",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-10T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "30effcf0-8409-48c2-a725-391cbf16712a",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-10T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "72d08b95-e7c7-401a-8fd2-6e97f44735a7",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-09T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "d1f20272-5a87-41c0-980e-222d0850a260",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-09T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "a4cda81f-35c6-464f-b729-aeb6df421712",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-09T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "1fd515e8-cad7-4a2e-9ae1-09f8fc0330a9",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-09T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "5675e227-2521-4b77-9e8c-b8c8c99e538f",
+      "task_id": "t-report",
+      "user_id": "u-ava",
+      "started_at": "2026-09-08T10:00:00.000Z",
+      "minutes": 35,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "42aa8206-887a-4f08-96cf-3e2b03c465a8",
+      "task_id": "t-invoices",
+      "user_id": "u-mia",
+      "started_at": "2026-09-08T10:00:00.000Z",
+      "minutes": 45,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "06c487bb-45af-4e68-8466-7419373a57bd",
+      "task_id": "t-triage",
+      "user_id": "u-noah",
+      "started_at": "2026-09-08T10:00:00.000Z",
+      "minutes": 30,
+      "note": "Synthetic example work session"
+    },
+    {
+      "id": "84bb1daa-d41c-4ce0-804f-88ee3c0c3364",
+      "task_id": "t-design",
+      "user_id": "u-mia",
+      "started_at": "2026-09-08T10:00:00.000Z",
+      "minutes": 60,
+      "note": "Synthetic example work session"
+    }
+  ],
+  "runs": [],
+  "pilots": [],
+  "reports": [],
+  "timer": null,
+  "schedule": {
+    "enabled": false,
+    "weekday": 1,
+    "hour": 9,
+    "minute": 0
+  }
+}

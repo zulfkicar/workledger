@@ -1,0 +1,23 @@
+{
+  "name": "workledger",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Task-linked time tracking, evidence-backed work insights, and scheduled team reports.",
+  "engines": {
+    "node": ">=24.14.0 <25"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "test": "node --test test/*.test.js",
+    "format": "prettier --write server web test *.json *.md *.yaml .github/workflows/*.yml scripts",
+    "format:check": "prettier --check server web test *.json *.md *.yaml .github/workflows/*.yml scripts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9"
+  }
+}
